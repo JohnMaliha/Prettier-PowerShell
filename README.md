@@ -7,7 +7,7 @@
 1) Install Starship : https://starship.rs/
     --> winget install starship
 
-    Copy the file named starship.toml under :  C:\Users\$your_user$\.config\starship.toml
+    Copy the file named starship.toml under :  C:\Users\$your_user$ \.config\starship.toml
 
 2) Install zoxide (for basically a smart cd)
     https://github.com/JohnMaliha/zoxide
