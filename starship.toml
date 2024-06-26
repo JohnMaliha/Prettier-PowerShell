@@ -12,7 +12,6 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 [package]
 disabled = true
 
-[env_var.HASVER]
 format = "is 📦 [$env_value]($style) "
 style = "green bold"
 
