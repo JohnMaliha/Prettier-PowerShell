@@ -42,7 +42,11 @@
     This command will display the path where the `Microsoft.PowerShell_profile.ps1` file should be located.
 2. Copy the `Microsoft.PowerShell_profile.ps1` file from my repository to this path.
 
-Close PowerShell, and you’re all set! 
+Restart the PowerShell, and you’re all set! 
+It is also possible to reset the pwsh with 
+    ```powershell
+    . $profile
+    ```
 
 Enjoy!
 
