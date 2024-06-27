@@ -17,11 +17,14 @@
       ```plaintext
       C:\Users\$your_user$\.config\starship.toml
       ```
-      **Note**: There are two files: `starship.toml` and `starship(2).toml` 
       ![alt text](https://github.com/JohnMaliha/Prettier-PowerShell/blob/main/terminal1_VS_terminal2.jpg)
+  
+      
       Choose either script based on your preference. If you select `starship(2).toml`, please rename it to `starship.toml`.
       - The script named `starship.toml` corresponds to the terminal labeled 1 in the picture.
       - The script named `starship(2).toml` corresponds to the terminal labaled 2 in the picture.
+      **Note**: There are two files: `starship.toml` and `starship(2).toml` 
+
 
 2. **Install zoxide** (a smarter `cd` command):
     - Visit [zoxide](https://github.com/ajeetdsouza/zoxide)
