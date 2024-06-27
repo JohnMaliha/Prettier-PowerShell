@@ -13,11 +13,10 @@
       ```powershell
       winget install starship
       ```
-    - Copy the `starship.toml` file to:
+    - Copy the `starship.toml` file to (you must create the .config folder first) :
       ```plaintext
       C:\Users\$your_user$\.config\starship.toml
       ```
-      You have to create the .config folder.
       **Note**: There are two files: `starship.toml` and `starship(2).toml` [See picture terminal1_VS_terminal2.jpg]. Choose either script based on your preference. If you select `starship(2).toml`, please rename it to `starship.toml`.
 
 2. **Install zoxide** (a smarter `cd` command):
