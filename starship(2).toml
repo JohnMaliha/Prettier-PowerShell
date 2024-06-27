@@ -1,0 +1,29 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow) "
+
+[directory]
+truncation_symbol = "~/"
+
+[git_branch]
+symbol = "  "
+style = "bold #e8ec00 inverted"
+format = "on [$symbol$branch ]($style) "
+
+[time]
+disabled = false
+format = '[ 🕙 $time ]($style) '
+time_format = "%Y-%m-%d %I:%M %p"
+style = "bold bg:#8a15e2"
+
+[package]
+disabled = true

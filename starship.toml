@@ -5,16 +5,22 @@
 add_newline = true
 
 # Replace the '❯' symbol in the prompt with '➜'
-[character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[✗](bold red)'
 
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
 
-format = "is 📦 [$env_value]($style) "
-style = "green bold"
+[directory]
+truncation_symbol = "~/"
 
-[env_var.COLORED_BUILD_ID]
-format = "🔨 [$env_value]($style) "
-style = "bold"
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow) "
+
+[time]
+disabled = false
+format = '[🕙 $time](bold blue) '
+time_format = "%Y-%m-%d %I:%M %p"

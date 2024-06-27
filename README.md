@@ -1,36 +1,49 @@
 # Prettier PowerShell
 
-## Make sur scripts are allowed to run on your pc : 
- --> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+## Prerequisites
+1. Set the execution policy:
+    ```powershell
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+    ```
 
-# Installing the requirements :
-1) Install Starship : https://starship.rs/
-    --> winget install starship
+# Installing the Requirements
+1. **Install Starship**:
+    - Visit [Starship](https://starship.rs/)
+    - Install via Winget:
+      ```powershell
+      winget install starship
+      ```
+    - Copy the `starship.toml` file to:
+      ```plaintext
+      C:\Users\$your_user$\.config\starship.toml
+      ```
+      **Note**: There are two files: `starship.toml` and `starship(2).toml` [See picture terminal1_VS_terminal2.jpg]. Choose either script based on your preference. If you select `starship(2).toml`, please rename it to `starship.toml`.
 
-    Copy the file named starship.toml under :  C:\Users\$your_user$ \.config\starship.toml
+2. **Install zoxide** (a smarter `cd` command):
+    - Visit [zoxide](https://github.com/ajeetdsouza/zoxide)
 
-2) Install zoxide (for basically a smart cd)
-    https://github.com/JohnMaliha/zoxide
+3. **Install Terminal Icons** (icons for `ls` command):
+    - Visit [Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 
-3) Install Terminal icons (Icons when you do ls)
-    https://github.com/JohnMaliha/Terminal-Icons
+4. **Install PSProfiler** (for time measurements):
+    - Visit [PSProfiler](https://github.com/sergey-s-betke/PSProfiler)
 
-4) Install PSProfiler (Gives time mesurements)
-    https://github.com/JohnMaliha/PSProfiler
+5. **Install PSReadline** (for command autocompletion):
+    - Visit [PSReadline](https://github.com/PowerShell/PSReadLine)
 
-5) Install PsReadline (Autocomplete commands)
-    https://github.com/JohnMaliha/PSReadLine 
+6. **Choose your favorite Nerd Font**:
+    - Visit [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
-6) Choose your favorite nerd font : 
-    https://www.nerdfonts.com/font-downloads
+## Creating the PowerShell Script to Activate Downloads
+1. Open PowerShell and type:
+    ```powershell
+    $profile
+    ```
+    This command will display the path where the `Microsoft.PowerShell_profile.ps1` file should be located.
+2. Copy the `Microsoft.PowerShell_profile.ps1` file from my repository to this path.
 
-Personnaly, i like the hack nerd font.
+Close PowerShell, and you’re all set! 
 
-## Create the powershell script to activate what was downloaded previously !
-On your powershell type $profile
-It will give you the path where the Microsoft.PowerShell_profile.ps1 file should be located.
-Copy the file named : Microsoft.PowerShell_profile.ps1 in my repo. 
+Enjoy!
 
-Close powershell and your all set :) 
-
-Enjoy
+~ John
