@@ -23,7 +23,7 @@
       Choose either script based on your preference. If you select `starship(2).toml`, please rename it to `starship.toml`.
       - The script named `starship.toml` corresponds to the terminal labeled 1 in the picture.
       - The script named `starship(2).toml` corresponds to the terminal labaled 2 in the picture.
-      **Note**: There are two files: `starship.toml` and `starship(2).toml` 
+      \n **Note**: There are two files: `starship.toml` and `starship(2).toml` 
 
 
 2. **Install zoxide** (a smarter `cd` command):
