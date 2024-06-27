@@ -25,6 +25,7 @@
       Choose either script based on your preference.
       <br />
       - The script named `starship.toml` corresponds to the terminal labeled 1 in the picture.
+      - <br />
       - The script named `starship(2).toml` corresponds to the terminal labaled 2 in the picture.
       <br />
       **Note**: If you select `starship(2).toml`, please rename it to `starship.toml`.
