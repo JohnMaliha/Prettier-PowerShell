@@ -23,6 +23,7 @@
   
       <br />
       Choose either script based on your preference.
+      <br\>
       - The script named `starship.toml` corresponds to the terminal labeled 1 in the picture.
       - The script named `starship(2).toml` corresponds to the terminal labaled 2 in the picture.
       <br/>
